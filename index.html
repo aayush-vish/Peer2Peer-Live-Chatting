@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeraki P2P Live Stream</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel = "icon" href = "BITMOJI HELLO.png" type = "image/x-icon"> 
+          
+</head>
+<body>
+    <header class="head">
+        <h1>P2P Live Streaming Web App</h1>
+    </header>
+    <div class="img">
+        <img src="BITMOJI HELLO.png" alt="">
+    </div>
+    <section class="input">
+        <div class="cred">
+            <label for="">Enter your ID</label><br><br>
+            <textarea name="" id="yourID" cols="30" rows="10"></textarea><br><br>
+            <label for="">Enter other ID</label><br><br>
+            <textarea name="" id="otherID" cols="30" rows="10"></textarea><br><br>
+            <button id="connect">Connect</button><br>
+        </div>
+        <div class="smsg">
+            <label for="">Enter Message</label><br><br>
+            <textarea name="" id="msg" cols="30" rows="10"></textarea><br><br>
+            <button id="send">Send</button><br>
+            <img src="BITMOJI TALK.png" alt="Lets Talk" height="250px">
+        </div>
+    </section>
+    <section class="messages">
+        <div class="rmsg">
+            <pre id="messages"></pre>
+        </div>
+        <div id="video"></div>
+    </section>
+</body>
+<script src="bundle.js"></script>
+</html>

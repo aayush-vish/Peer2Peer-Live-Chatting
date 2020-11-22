@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Satisfy&family=Staatliches&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 24px;
+    font-family: 'Staatliches', cursive;
+    background:url(watercolor.png);
+}
+
+
+/* Header */
+.head{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: black;
+    color: pink;
+}
+
+.img{
+    margin-left: 450px;
+    animation: imganimate  2s;
+}
+@keyframes imganimate{
+    0%{
+        margin-left: -500px;
+    }
+    100%{
+        display: 450px;
+    }
+}
+/* Input */
+.input{
+    margin-left: 350px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border: 5px solid pink;
+    border-radius: 20px;
+    width: 700px;
+    background-color: white;
+}
+.cred{
+    margin-top: 10px;
+    margin-right: 35px;
+}
+#connect{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    background-color: pink;
+    color: black;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    font-family: 'PT Mono', monospace;
+}
+.smsg{
+    margin-top: 10px;
+
+}
+#send{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    background-color: pink;
+    color: black;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    font-family: 'PT Mono', monospace;
+}
+
+/* Messages */
+.messages{
+    display: flex;
+    justify-content: flex-start;
+}
+#messages{
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: white;
+    border: 5px solid pink;
+    border-radius: 20px;
+    width: 300px;
+}
+/* Video */
+#video{
+    margin-top: 70px;
+    margin-left: 350px;
+    border: 5px solid pink;
+}
